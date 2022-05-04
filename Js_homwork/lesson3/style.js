@@ -99,7 +99,7 @@ document.write('<ul>')
 for (let i = 0; i < products.length; i++) {
     let product = products[i];
     // if (product.prise >= 10)
-        document.write(`<li class="target"> ${product.title} ${product.price} <img src="${product.image}"></li>`)
+        document.write(`<li class="target"> ${product.title} ${product.prise} $<img src="${product.image}"></li>`)
 }
 document.write('</ul>')
 
