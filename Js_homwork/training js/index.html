@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .target img {
+            width: 200px;
+            background: #d4eee8;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    // document.write('<ul>');
+    // for (let i = 0; i < 105; i++) {
+    //     document.write('<li>item</li>');
+    // }
+    // document.write('<ul>');
+    // for (let i = 0; i < 105; i++) {
+    //     document.write(`<li>item ${i}</li>`);
+    // }
+
+
+    // let menu = ['sdf','sdfdf','dgdggxdg'];
+    // document.write('<ul>');
+    // for (let i = 0; i < 3; i++) {
+    //     // document.write('<li>item</li>');
+    //     document.write('<li>gggg</li>');
+    //     document.write(`<li></li>`);
+    //     document.write(`<li></li>`);
+    //     document.write(`<li></li>`);
+    //     document.write(`<li></li>`);
+    //     document.write(`<li></li>`);
+    // }
+
+    // let menu = ['sdf', 'sdfdf', 'dgdggxdg', 'sdf', 'sdfdf', 'sdf'];
+    // document.write('<ul>');
+    // for (let i = 0; i < menu.length; i++) {
+    //     // document.write('<li>item</li>');
+    //          document.write(`<li>${menu[i]}</li>`);
+    //
+    // }
+    // document.write('<ul>');
+
+    document.write('<ul>');
+    let products = [
+        {
+            title: 'milk',
+            prise: 999,
+            image: 'https://cdn.27.ua/499/a0/fd/434429_2.jpeg'
+        },
+        {
+            title: 'milk',
+            prise: 25,
+            image: 'https://cdn.27.ua/499/a0/fd/434429_2.jpeg'
+        },
+        {
+            title: 'milk',
+            prise: 10,
+            image: 'https://cdn.27.ua/499/a0/fd/434429_2.jpeg'
+        },
+    ];
+    document.write('<ul>')
+    for (let i = 0; i < products.length-1; i++) {
+        let product = products[i];
+        if (product.prise >= 10)
+        document.write(`<li class="target"> ${product.title} ${product.prise} <img src="${product.image}"></li>`)
+    }
+
+</script>
+</body>
+</html>
