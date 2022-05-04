@@ -1,0 +1,58 @@
+
+.panel1 {
+    height: 70px;
+    width: 600px;
+    background: #d4eee8;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blo {
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.empty {
+    background: rgb(69, 186, 44);
+
+}
+
+.panel2 {
+    height: 260px;
+    width: 600px;
+    background: #2e434c;
+}
+
+.panel3 {
+    height: 120px;
+    width: 600px;
+    background: #d4eee8;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.knob {
+    height: 100px;
+    width: 100px;
+    background: rgb(69, 186, 44);
+    /*margin: 10px;*/
+    margin: -100px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.fa-solid {
+    color: #415874;
+    font-size: 25px;
+}

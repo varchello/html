@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.panel1, .neighbor, .knob {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid powderblue;
+    border-radius: 10px;
+    background: #44684e;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #12322f;
+
+
+}
+
+.panel {
+    min-height: 600px;
+    width: 800px;
+    background: rgb(182, 224, 229);
+    border: 5px solid powderblue;
+}
+
+.panel1 {
+    height: 200px;
+    width: 800px;
+
+}
+
+.panel2 {
+    min-height: 400px;
+    width: 800px;
+    display: flex;
+
+}
+
+.container {
+    min-height: 400px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.knob {
+    height: 50%;
+    width: 33.3%;
+
+}
+
+.neighbor {
+    height: 400px;
+    width: 200px;
+
+}

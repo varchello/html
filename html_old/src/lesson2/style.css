@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+
+}
+.panel{
+    height: 500px;
+    background: #6593bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.plan{
+    height: 400px;
+    width: 250px;
+    background: #2e434c;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 5px solid wheat;
+
+
+}
+.fa-angles-left{
+    display: flex;
+    color: #6c92bb;
+   font-size: 50px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.txt{
+
+    color: #f16b6b;
+    text-align: center;
+    align-items: flex-end;
+    line-height: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.link{
+    display: flex;
+    color: #6c92bb;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    text-decoration: none;
+}
