@@ -22,12 +22,13 @@
 // console.log(a5);
 // console.log(a6);
 // console.log(a7);
-// alert(a8);
+// // alert(a8);
 // document.write(a9);
 // console.log(a10);
 // console.log(a11);
 // console.log(a12);
 // console.log(a13);
+
 
 // - Створити об'єкт book з наступними полями :
 // назва, (тип string)
@@ -64,18 +65,30 @@
 // let person = fname + ' ' + mname + ' ' + lname;
 // console.log(person);
 
+
+
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям,
 // По-Батькові та роками. та вивести в консоль
 
-// let fname = prompt('enter you first name');
-// let mname = prompt('enter you middle name');
-// let birth = prompt('year of birth');
-// let person = `${fname} ${mname} ${birth}`;
+// Вирішення_ВАРІАНТ_1
+// let fn = prompt('enter you first name');
+// let mn = prompt('enter you middle name');
+// let age = prompt('how old are you');
+// let person = `${fn} ${mn} ${age}`;
 // console.log(person);
+
+
+// Вирішення_ВАРІАНТ_2
+// let qw = prompt('enter you first name');
+// let er = prompt('enter you middle name');
+// let ty = prompt('how old are you');
+// let iam = { fn:'Varvara',mn:'Bebeshko',age: 42};
+// console.log(iam[qw],iam[er],iam[ty]);
+
 
 // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 // let a = 100; let b = '100'; let c = true;
-
+//
 // let a = 100;
 // let b = '100';
 // let c = true;
@@ -86,10 +99,12 @@
 // - Створити масив об'єктів з назвою books з наступними полями
 // - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
 
-// const books = [
-//     {name1: 'Misery', pages: '320', genre: 'horror', autors: ['King', 'Bro']},
-//     {name2: 'Thinner', pages: '253', genre: 'horror', autors: ['King', 'Peter', 'Bro']},
-//     {name3: 'Insomnia', pages: '388', genre: 'horror novel', autors: ['King', 'Peter']}]
-// console.log(books[0]);
-// console.log(books[1]);
-// console.log(books[2]);
+// let books = [
+//     {name: 'Misery', pages: 320, genre: 'horror', autors: ['King', 'Bro']},
+//     {name: 'Thinner', pages: 253, genre: 'horror', autors: ['King', 'Peter', 'Bro']},
+//     {name: 'Insomnia', pages: 388, genre: 'horror novel', autors: ['King', 'Peter']}]
+// console.log(books[0],books[1],books[2]);
+
+
+
+

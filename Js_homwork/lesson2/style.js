@@ -2,15 +2,30 @@
 //     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'.
 //     Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
-// let x = prompt("name the password");
-// if (x === '0') {console.log('no(((');}
-// else if (x !== '0') {console.log('yes!!!');}
+// Вирішення_ВАРІАНТ_1
+// let x = 0;
+// if (x !== 0) {
+//     console.log('yes')
+// }
+// if (x === 0) {
+//     console.log('no')
+// }
+
+// Вирішення_ВАРІАНТ_2
+// let x = +prompt("name the password");
+// if (x === 0) {
+//     console.log('no');
+// }
+// else if (x !== 0) {
+//     console.log('yes');
+// }
+
 
 // - Дано змінну time яка рівна числу від 0 до 59.
 // Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
 
-// let time = prompt('hour');
+// let time = +prompt('hour');
 // if (time >= 0 && time <=15)
 // {console.log('quarter one');}
 // if (time > 15 && time <=30)
@@ -69,8 +84,8 @@
 //         Потрібно знайти та вивести максимальне число з тих двох .
 //         Також потрібно врахувати коли введені рівні числа.
 
-// let x = prompt('What is number one?')
-// let y = prompt('What is number two?')
+// let x = +prompt('What is number one?');
+// let y = +prompt('What is number two?');
 // if (x >= y) {
 //     console.log(x);
 // } else if (y >= x) {
